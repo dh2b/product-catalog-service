@@ -22,7 +22,7 @@ In the case of running the application from IDE, do not forget to enable annotat
 #### Important: 
 
 * It's mandatory to have MongoDB running at default port `27017` in your local environment.
-* It's also desirable to have Kafka running in your local environment. If you don't, please set property  `enabled` to `false` on the [application-local.yml](https://github.com/dh2b/product-catalog-service/blob/main/src/main/resources/application-local.yml)
+* It's also desirable to have Kafka running in your local environment. If you don't, please set property  `enabled` to `false` on the [application-local.yml](https://github.com/dh2b/product-catalog-service/blob/master/src/main/resources/application-local.yml)
 
 ```yaml
 spring:
