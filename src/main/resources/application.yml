@@ -1,0 +1,21 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: product-catalog-service
+  profiles:
+    active: local
+mongo:
+  database:
+    name: product
+management:
+  endpoints:
+    web:
+      base-path: /api/product-catalog-service/actuator
+springdoc:
+  swagger-ui:
+    path: /api/product-catalog-service/swagger-ui.html
+  api-docs:
+    path: /swagger
+  packageToScan: com.philips.productcatalogservice.api.controller
+  pathsToMatch: /api/product-catalog-service/v1/**

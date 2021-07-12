@@ -1,0 +1,12 @@
+spring:
+  kafka:
+    bootstrapAddress: localhost:9092
+    topic: productEventTopic
+    enabled: true
+supplyChainService:
+  baseUrl: https://ev5uwiczj6.execute-api.eu-central-1.amazonaws.com
+  baseSupplyEndpoint: /test/supply-chain
+  deleteSupplyEndpoint: /test/supply-chain/{id}
+  connect-timeout-ms: 15000
+  read-timeout-sec: 20
+
