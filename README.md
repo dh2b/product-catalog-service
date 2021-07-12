@@ -66,6 +66,9 @@ Run the following command from [installed-kafka-version]\bin\windows folder if y
 kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic votingEventTopic
 ```
 
+### Postman Collection
+For simple tests please import and use the [Postman Collection](https://github.com/dh2b/product-catalog-service/tree/master/postman)
+
 ### Bibliography 
 
 For more references and explanations, please access the following documentation:
